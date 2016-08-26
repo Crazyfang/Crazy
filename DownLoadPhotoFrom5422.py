@@ -412,39 +412,7 @@ if __name__ == "__main__":
     urls = 'http://www.5442.com/meinv/20160715/33692_1.html'
 
     root = Tk()
-    root.title('谢老板专用爬图软件')
+    root.title('爬图软件')
     SearchAimData(root)
     root.mainloop()
 
-    # html=getUrl_multiTry(url)
-    # print html.decode('gbk').encode('utf-8')
-
-    # test=re.compile('<a href="(http://.+?\.html)" target="_blank" title=".*">')
-    # test1=re.compile('<a href="(http://.+?\.html)" title=".*" target="_blank">')
-    # first=re.compile('href="(http://www.5442.com/meinv/\d{8}/\d{1,8}\.html)"')
-    # tests=re.findall(test,code)
-    # test1s=re.findall(test1,code)
-    # firsts=re.findall(first,html)
-    # print tests
-    # print test1s
-    # print firsts
-    # test = DownPhotoAuto()
-    # test.GetTheAllPhoto(url)
-
-    # html = getUrl_multiTry(urls)
-    # print html.decode('gbk').encode('utf-8')
-    # print html.decode('gbk').encode('utf-8')
-    # href = re.compile('<a href="(http://.+?\.html)" target="_blank" title=".*"')
-    # id = re.compile('http://www.5442.com/meinv/\d{8}/(.*?).html')
-    # MaxPage = re.compile('<a>共(.*?)页: </a>'.encode('gb2312'))
-    # Link = re.compile('<img src=\'(.+?\.jpg)\'')
-    # MaxPages=re.findall(MaxPage,html)
-    # Links=re.findall(Link,html)
-    # print MaxPages
-    # print Links
-    # print html.decode('gbk').encode('utf-8')
-    # hrefs=re.findall(href, html)
-    # for i in range(0,len(hrefs)):
-    #     ids = re.findall(id,hrefs[i])
-    #     print ids
-    # print hrefs
