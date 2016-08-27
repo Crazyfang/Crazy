@@ -182,7 +182,7 @@ class DownPhotoAuto():
 
 class SearchAimData(Frame):
     """
-        搜索目标文件，有则打开，找不到则提示不存在
+        下载图片界面类
     """
     def __init__(self, master):
         """
